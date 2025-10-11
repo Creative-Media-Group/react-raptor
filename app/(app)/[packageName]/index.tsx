@@ -8,7 +8,6 @@ import {
   Text,
   StyleSheet,
 } from "react-native";
-import { SystemBars } from "react-native-edge-to-edge";
 import { useReactRaptorApp } from "@/hooks/useReactRaptorApp";
 import { theme } from "@/constants/theme";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -39,8 +38,6 @@ export default function Details() {
       <Stack.Screen
         options={{ headerTitle: data?.appName, headerTitleAlign: "center" }}
       />
-
-      <SystemBars style="light" />
 
       <ScrollView
         style={{}}
