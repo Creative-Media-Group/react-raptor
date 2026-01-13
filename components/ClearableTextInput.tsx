@@ -1,6 +1,7 @@
 import Ionicons from "@expo/vector-icons/Ionicons";
 import {
   StyleSheet,
+  Text,
   TextInput,
   TouchableOpacity,
   View,
