@@ -21,7 +21,7 @@ export default function Index() {
       title: "React Native Apps",
       headerRight: () => <FilterButton />,
     });
-  }, []);
+  }, [navigation]);
 
   const insets = useSafeAreaInsets();
 

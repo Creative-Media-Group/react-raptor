@@ -37,7 +37,7 @@ export const LoadingApps = () => {
       ),
       -1
     );
-  }, []);
+  }, [rotation, scale]);
 
   return (
     <View style={styles.container}>
